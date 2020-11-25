@@ -1,2 +1,2 @@
 // Write your code here!
-let element= 
+let element= document.createElement('div');
