@@ -16,5 +16,5 @@ ul.style.textAlign = 'left';
 ul.removeChild(ul.querySelector('li:nth-child(2)'));
 ul.remove()
 main.remove();
-let newHeader=document.createElement('h1#victory');
+let newHeader=document.queryselector('h1#victory');
 newHeader.innerHTML="YOUR-NAME is the champion";
