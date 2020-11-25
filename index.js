@@ -13,4 +13,5 @@ element.appendChild(ul);
 element.style.backgroundColor = '#27647B';
 element.style.textAlign = 'center';
 ul.style.textAlign = 'left';
-ul.removeChild(ul.querySelector('li:nth-child(2)'))
+ul.removeChild(ul.querySelector('li:nth-child(2)'));
+ul.remove()
